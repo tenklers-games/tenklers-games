@@ -16,3 +16,6 @@ function closeGame() {
   document.getElementById("gameArea").classList.add("hidden");
   clearInterval(timer);
 }
+window.onload = () => {
+  startGame();
+};
