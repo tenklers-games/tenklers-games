@@ -1,1 +1,26 @@
+body {
+  background:#111;
+  color:white;
+  font-family: Arial;
+  text-align:center;
+}
 
+.games {
+  display:flex;
+  justify-content:center;
+  margin-top:30px;
+}
+
+.card {
+  background:#222;
+  padding:10px;
+  border-radius:10px;
+  text-decoration:none;
+  color:white;
+  width:200px;
+}
+
+.card img {
+  width:100%;
+  border-radius:8px;
+}
